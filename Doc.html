@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.Container{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.65);
+    padding: 0px;
+    width: 79%;
+    margin-top: 0px;
+}
+.container1{
+    position: absolute;
+    font-size: 25px;
+    top: 0px;
+    left: 200px;
+    transform: translate(20%, 25%);
+    padding: 2px;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(245, 239, 239); /* Fallback color */
+  background: rgba(255, 255, 255, 0.65); /* Black background with 0.5 opacity */
+  color: #1b1919;
+  width: 100%;
+  padding: 0px;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-gap: 0px;
+
+}
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+    <div class="Container">
+        <img style="height: 170px; width: 280px" ng-src="https://mmdconnect.appspot.com/images?eid=33179&ifn=Ramaiah Logo.png" src="https://i.pinimg.com/originals/33/e0/c5/33e0c5ff9c271eb7bfeb0fe7b0b91d68.jpg">
+    </div>
+    <img src="k.jpg" alt="Nature" style="width:100%;">
+
+   
+    <div class="content">
+        <h2 style="text-align:center">Some of our best doctors </h2>
+    
+        <div class="grid-container">
+            <div class="card">
+                <img src="g.png" alt="Dr.Kevin" style="width:75%">
+                <h1>Dr.Kevin</h1>
+                <p class="title">Neurosurgeon</p>
+                <p>Harvard University</p>
+        
+                <p><button>Contact</button></p>
+            </div>
+            <div class="card">
+                <img src="g.png" alt="Dr.John" style="width:75%">
+                <h1>Dr.John</h1>
+                <p class="title">Cardiologist</p>
+                <p>Harvard University</p>
+          
+                <p><button>Contact</button></p>
+            </div>
+            <div class="card">
+                <img src="g.png" alt="Dr.Mark" style="width:75%">
+                <h1>Dr.Mark</h1>
+                <p class="title">Pediatrician</p>
+                <p>Harvard University</p>
+          
+                <p><button>Contact</button></p>
+            </div>
+            <div class="card">
+                <img src="g.png" alt="Dr.George" style="width:75%">
+                <h1>Dr.George</h1>
+                <p class="title">Consultant Orthopedics</p>
+                <p>Harvard University</p>
+          
+                <p><button>Contact</button></p>
+            </div>
+            
+
+
+        </div>
+    </div>
+    
+    
+    <div class="container1">
+        <h1 style="text-align: center">Healthcare Hospitals</h1>
+
+    </div>
+
+
+</body>
+</html>
